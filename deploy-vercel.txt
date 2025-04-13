@@ -13,7 +13,7 @@ Vercel (Recommended)
 5. Vercel auto-detects the React app.
 
     If needed, set:
-    - Framework: Create React App
-    - Build Command: expo export:web
+    - Framework: Other
+    - Build Command: npx expo export
     - Output Directory: dist
 

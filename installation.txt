@@ -1,4 +1,8 @@
+Expo
 https://docs.expo.dev/
+
+React Native
+https://reactnative.dev/
 
 ** install
 1. >> npx create-expo-app@latest --template blank

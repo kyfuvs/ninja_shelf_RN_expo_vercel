@@ -1,19 +1,23 @@
-import { Image, StyleSheet, Text, View } from 'react-native'
-import React from 'react';
-import Home from './home';
-import Navbar from './components/navbar';
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+// import Home from '../pageFolder/homeFolder/home'
+import Navbar from '../components/navbar'
 
-const Index = () => {
+const index = () => {
   return (
-    <View style={styles.container}>
-      {/* <Text style={styles.text}>Index</Text> */}
-      {/* <Home/> */}
+    <View style={{ flex: 1 }}>
       <Navbar/>
+      <View style={styles.container}>
+        {/* <Text>index</Text> */}
+        {/* <Home/> */}
+        
+        <Text style={styles.text}>HOME</Text>
+      </View>
     </View>
-  );
-};
+  )
+}
 
-export default Index;
+export default index
 
 const styles = StyleSheet.create({
   container: {
@@ -25,7 +29,4 @@ const styles = StyleSheet.create({
   text: {
     color: '#fff',
   },
-
-  
-  
-});
+})
