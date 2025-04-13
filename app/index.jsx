@@ -1,12 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 // import Home from '../pageFolder/homeFolder/home'
-import Navbar from '../components/navbar'
+import Navbar_Home from '../components/navbar_Home'
 
 const index = () => {
   return (
     <View style={{ flex: 1 }}>
-      <Navbar/>
+      <Navbar_Home/>
       <View style={styles.container}>
         {/* <Text>index</Text> */}
         {/* <Home/> */}

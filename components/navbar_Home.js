@@ -2,7 +2,7 @@ import { StyleSheet, Image,Text, View, TouchableOpacity } from 'react-native';
 import React from 'react';
 import { useRouter } from 'expo-router'; // 👈 import this
 
-const Navbar = () => {
+const Navbar_Home = () => {
   const router = useRouter(); // 👈 use this
   const W3SCHOOL_LOGO = "https://www.w3schools.com/images/w3schools_logo_436_2.png"
   return (
@@ -25,11 +25,11 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar_Home;
 
 const styles = StyleSheet.create({
   navbar: {
-    width: '90vw',
+    width: '100vw',
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
